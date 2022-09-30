@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face{
+            font-family: 'lemon';
+            src: url('LEMONMILK-Regular.otf') format('opentype'), url('LEMONMILK-LightItalic.otf') format('opentype');    
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - trutype (ttf)
+            - embedded-opentype
+            - trutyoe-aat (apple advanced typography)
+            - svg
+            */
+        }
+        h1{
+            font-family: 'lemon'; sans-serif;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quaerat est cumque excepturi, tenetur harum sunt amet cum labore non nobis molestias soluta consequatur deleniti explicabo ut numquam quidem doloremque.</p>
+</body>
+</html>
